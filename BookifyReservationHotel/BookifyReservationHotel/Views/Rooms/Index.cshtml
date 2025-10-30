@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "الغرف المتاحة - Bookify";
+}
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Filters Sidebar -->
+        <div class="col-lg-3 mb-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-funnel"></i> فلاتر البحث</h5>
+                </div>
+                <div class="card-body">
+                    <!-- Price Range -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">نطاق السعر (ج.م)</label>
+                        <input type="range" class="form-range" min="0" max="1000" step="50" id="priceRange">
+                        <div class="d-flex justify-content-between">
+                            <span id="minPrice">0</span>
+                            <span id="maxPrice">1000</span>
+                        </div>
+                    </div>
+
+                    <!-- Room Type -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">نوع الغرفة</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="standardRoom">
+                            <label class="form-check-label" for="standardRoom">ستاندرد</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="deluxeRoom">
+                            <label class="form-check-label" for="deluxeRoom">ديلوكس</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="suiteRoom">
+                            <label class="form-check-label" for="suiteRoom">سويت</label>
+                        </div>
+                    </div>
+
+                    <!-- Capacity -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">السعة</label>
+                        <select class="form-select">
+                            <option value="">جميع السعات</option>
+                            <option value="1">1 ضيف</option>
+                            <option value="2">2 ضيف</option>
+                            <option value="3">3 ضيوف</option>
+                            <option value="4">4 ضيوف</option>
+                        </select>
+                    </div>
+
+                    <!-- Amenities -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">المرافق</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="wifi">
+                            <label class="form-check-label" for="wifi">واي فاي</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="ac">
+                            <label class="form-check-label" for="ac">تكييف</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tv">
+                            <label class="form-check-label" for="tv">تلفزيون</label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary w-100" id="applyFilters">
+                        <i class="bi bi-check-lg"></i> تطبيق الفلترة
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rooms Grid -->
+        <div class="col-lg-9">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="mb-0">الغرف المتاحة</h2>
+                <div class="d-flex gap-2">
+                    <select class="form-select w-auto">
+                        <option>ترتيب حسب: الأحدث</option>
+                        <option>الأقل سعراً</option>
+                        <option>الأعلى سعراً</option>
+                        <option>الأعلى تقييماً</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row g-4" id="roomsGrid">
+                <!-- Room Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card room-card shadow-sm border-0 h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="غرفة 101">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title mb-0">غرفة 101</h5>
+                                <span class="badge bg-success">متاحة</span>
+                            </div>
+                            <p class="text-muted small">غرفة ستاندرد</p>
+                            <div class="room-features mb-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-person"></i> 2 ضيوف
+                                    <i class="bi bi-arrows-fullscreen ms-2"></i> 25م²
+                                </small>
+                            </div>
+                            <div class="room-rating mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <small class="text-muted">(4.5)</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">150 ج.م/ليلة</span>
+                                <a asp-controller="Rooms" asp-action="Details" asp-route-id="1"
+                                   class="btn btn-primary btn-sm">عرض التفاصيل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card room-card shadow-sm border-0 h-100">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="غرفة 102">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title mb-0">غرفة 102</h5>
+                                <span class="badge bg-success">متاحة</span>
+                            </div>
+                            <p class="text-muted small">غرفة ديلوكس</p>
+                            <div class="room-features mb-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-person"></i> 3 ضيوف
+                                    <i class="bi bi-arrows-fullscreen ms-2"></i> 35م²
+                                </small>
+                            </div>
+                            <div class="room-rating mb-3">
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                                <small class="text-muted">(4.2)</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary mb-0">250 ج.م/ليلة</span>
+                                <a asp-controller="Rooms" asp-action="Details" asp-route-id="2"
+                                   class="btn btn-primary btn-sm">عرض التفاصيل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more room cards as needed -->
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation" class="mt-5">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">السابق</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">التالي</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Price range functionality
+        const priceRange = document.getElementById('priceRange');
+        const minPrice = document.getElementById('minPrice');
+        const maxPrice = document.getElementById('maxPrice');
+
+        priceRange.addEventListener('input', function() {
+            minPrice.textContent = '0';
+            maxPrice.textContent = this.value;
+        });
+
+        // Filter application
+        document.getElementById('applyFilters').addEventListener('click', function() {
+            // Add filter logic here
+            alert('تم تطبيق الفلترة بنجاح!');
+        });
+    </script>
+}

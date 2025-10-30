@@ -1,0 +1,204 @@
+﻿@{
+    ViewData["Title"] = "تفاصيل الغرفة - Bookify";
+}
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Image Gallery -->
+        <div class="col-lg-7 mb-4">
+            <div class="card border-0 shadow-sm">
+                <img src="https://via.placeholder.com/800x500" class="card-img-top rounded" alt="غرفة 101">
+                <div class="card-body">
+                    <div class="row g-2">
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/200x150" class="img-fluid rounded" alt="صورة 1">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/200x150" class="img-fluid rounded" alt="صورة 2">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/200x150" class="img-fluid rounded" alt="صورة 3">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/200x150" class="img-fluid rounded" alt="صورة 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Booking Section -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm sticky-top" style="top: 100px;">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-calendar-check"></i> احجز الآن</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Bookings" asp-action="Create" method="get">
+                        <input type="hidden" name="roomId" value="1">
+
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <label class="form-label">تاريخ الوصول</label>
+                                <input type="date" class="form-control" name="checkInDate" required>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">تاريخ المغادرة</label>
+                                <input type="date" class="form-control" name="checkOutDate" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">عدد الضيوف</label>
+                                <select class="form-select" name="guests" required>
+                                    <option value="1">1 ضيف</option>
+                                    <option value="2" selected>2 ضيف</option>
+                                    <option value="3">3 ضيوف</option>
+                                    <option value="4">4 ضيوف</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="bi bi-check-lg"></i> تأكيد الحجز
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <hr>
+
+                    <div class="price-summary">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>150 ج.م × 3 ليالي</span>
+                            <span>450 ج.م</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>الضرائب والرسوم</span>
+                            <span>45 ج.م</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between fw-bold fs-5">
+                            <span>الإجمالي</span>
+                            <span class="text-primary">495 ج.م</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Room Information -->
+    <div class="row mt-5">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title">غرفة 101 - ستاندرد</h3>
+                    <div class="room-meta mb-4">
+                        <span class="badge bg-success me-2">متاحة</span>
+                        <span class="text-muted">
+                            <i class="bi bi-star-fill text-warning"></i> 4.5 (120 تقييم)
+                        </span>
+                    </div>
+
+                    <p class="card-text lead">
+                        غرفة ستاندرد مريحة ومناسبة للإقامة الفردية أو الزوجية. تتميز بديكور عصري
+                        ومرافق متكاملة تضمن لكم إقامة ممتعة.
+                    </p>
+
+                    <div class="row g-4 mt-4">
+                        <div class="col-md-6">
+                            <h5>تفاصيل الغرفة</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-arrows-fullscreen text-primary me-2"></i> المساحة: 25 متر مربع</li>
+                                <li><i class="bi bi-person text-primary me-2"></i> السعة: 2 أشخاص</li>
+                                <li><i class="bi bi-bed text-primary me-2"></i> سرير: سرير مزدوج كبير</li>
+                                <li><i class="bi bi-door-closed text-primary me-2"></i> الطابق: الأول</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>المرافق</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-wifi text-success me-2"></i> واي فاي مجاني</li>
+                                        <li><i class="bi bi-snow text-success me-2"></i> تكييف</li>
+                                        <li><i class="bi bi-tv text-success me-2"></i> تلفزيون</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li><i class="bi bi-cup text-success me-2"></i> ميني بار</li>
+                                        <li><i class="bi bi-droplet text-success me-2"></i> حمام خاص</li>
+                                        <li><i class="bi bi-telephone text-success me-2"></i> هاتف</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reviews Section -->
+            <div class="card border-0 shadow-sm mt-4">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0"><i class="bi bi-chat-left-text"></i> التقييمات</h5>
+                </div>
+                <div class="card-body">
+                    <!-- Review 1 -->
+                    <div class="review-item mb-4 pb-4 border-bottom">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <div>
+                                <h6 class="mb-1">أحمد محمد</h6>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <small class="text-muted">منذ 3 أيام</small>
+                        </div>
+                        <p class="mb-0">غرفة رائعة ونظيفة، الخدمة ممتازة والموقع جميل. أنصح بالحجز فيها.</p>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="review-item">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <div>
+                                <h6 class="mb-1">فاطمة علي</h6>
+                                <div class="text-warning small">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                            <small class="text-muted">منذ أسبوع</small>
+                        </div>
+                        <p class="mb-0">تجربة جميلة overall، لكن يمكن تحسين خدمة الواي فاي.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .sticky-top {
+            z-index: 1020;
+        }
+
+        .room-meta .badge {
+            font-size: 0.9em;
+        }
+
+        .review-item:last-child {
+            border-bottom: none !important;
+            margin-bottom: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    </style>
+}

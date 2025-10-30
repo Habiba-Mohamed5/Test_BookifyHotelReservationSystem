@@ -1,0 +1,190 @@
+﻿@{
+    ViewData["Title"] = "الرئيسية - Bookify";
+}
+
+<!-- Hero Section -->
+<section class="hero-section bg-primary text-white py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4 fw-bold mb-4">استمتع بإقامة فاخرة مع Bookify</h1>
+                <p class="lead mb-4">اكتشف غرفنا المميزة وخدماتنا الفاخرة لتجربة إقامة لا تُنسى</p>
+                <a asp-controller="Rooms" asp-action="Index" class="btn btn-light btn-lg">
+                    <i class="bi bi-search"></i> استكشف الغرف
+                </a>
+            </div>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/600x400" alt="فندق Bookify" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quick Search -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow border-0">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-center mb-4">ابحث عن غرفتك المثالية</h3>
+                        <form asp-controller="Rooms" asp-action="Index" method="get">
+                            <div class="row g-3">
+                                <div class="col-md-3">
+                                    <label class="form-label">تاريخ الوصول</label>
+                                    <input type="date" class="form-control" name="checkInDate">
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">تاريخ المغادرة</label>
+                                    <input type="date" class="form-control" name="checkOutDate">
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">عدد الضيوف</label>
+                                    <select class="form-select" name="guests">
+                                        <option value="1">1 ضيف</option>
+                                        <option value="2" selected>2 ضيف</option>
+                                        <option value="3">3 ضيوف</option>
+                                        <option value="4">4 ضيوف</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3 d-flex align-items-end">
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="bi bi-search"></i> بحث
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Room Types -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">أنواع الغرف المميزة</h2>
+            <p class="text-muted">اختر من بين مجموعة متنوعة من الغرف المناسبة لجميع الاحتياجات</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Room Type 1 -->
+            <div class="col-md-4">
+                <div class="card room-card shadow-sm border-0 h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="غرفة ستاندرد">
+                    <div class="card-body">
+                        <h5 class="card-title">غرفة ستاندرد</h5>
+                        <p class="card-text text-muted">غرفة مريحة ومناسبة للإقامة الفردية أو الزوجية مع جميع المرافق الأساسية.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary mb-0">150 جنيه/ليلة</span>
+                            <a href="#" class="btn btn-outline-primary">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room Type 2 -->
+            <div class="col-md-4">
+                <div class="card room-card shadow-sm border-0 h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="غرفة ديلوكس">
+                    <div class="card-body">
+                        <h5 class="card-title">غرفة ديلوكس</h5>
+                        <p class="card-text text-muted">غرفة فاخرة بمساحة أكبر وإطلالة رائعة، مثالية للعائلات الصغيرة.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary mb-0">250 جنيه/ليلة</span>
+                            <a href="#" class="btn btn-outline-primary">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room Type 3 -->
+            <div class="col-md-4">
+                <div class="card room-card shadow-sm border-0 h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="سويت">
+                    <div class="card-body">
+                        <h5 class="card-title">سويت</h5>
+                        <p class="card-text text-muted">جناح فاخر يتكون من غرفة معيشة ومنام مع جميع وسائل الراحة والرفاهية.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="h5 text-primary mb-0">400 جنيه/ليلة</span>
+                            <a href="#" class="btn btn-outline-primary">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4 text-center">
+            <div class="col-md-3">
+                <div class="feature-item">
+                    <i class="bi bi-wifi display-4 text-primary mb-3"></i>
+                    <h5>واي فاي مجاني</h5>
+                    <p class="text-muted">اتصال إنترنت سريع في جميع أنحاء الفندق</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-item">
+                    <i class="bi bi-cup-hot display-4 text-primary mb-3"></i>
+                    <h5>مطعم فاخر</h5>
+                    <p class="text-muted">تشكيلة متنوعة من الأطباق المحلية والعالمية</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-item">
+                    <i class="bi bi-car-front display-4 text-primary mb-3"></i>
+                    <h5>موقف سيارات</h5>
+                    <p class="text-muted">موقف آمن ومجاني لسيارات النزلاء</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-item">
+                    <i class="bi bi-shield-check display-4 text-primary mb-3"></i>
+                    <h5>أمان على مدار الساعة</h5>
+                    <p class="text-muted">نظام أمني متكامل ومراقبة 24/7</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Styles {
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .section-title {
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 60px;
+            height: 3px;
+            background: #667eea;
+        }
+
+        .room-card {
+            transition: transform 0.3s ease;
+        }
+
+        .room-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-item {
+            padding: 20px;
+        }
+    </style>
+}

@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\bookifyreservationhotel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\shared\\_notificationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\admin\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\admin\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\admin\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\admin\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\admin\\rooms\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\admin\\rooms\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\bookings\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\bookings\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\bookings\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\bookings\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|e:\\depiassignments\\projectbookifyreservationhotel\\bookifyreservationhotel\\bookifyreservationhotel\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202BC197-227B-42DC-96A7-4A8C0DCBBB2E}|BookifyReservationHotel\\BookifyReservationHotel.csproj|solutionrelative:bookifyreservationhotel\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Error.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Home\\Error.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Error.cshtml*",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Home\\Error.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T15:14:57.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Program.cs",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Program.cs",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Program.cs*",
+              "RelativeToolTip": "BookifyReservationHotel\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:40:06.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Controllers\\RoomsController.cs",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Controllers\\RoomsController.cs*",
+              "RelativeToolTip": "BookifyReservationHotel\\Controllers\\RoomsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T14:37:16.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Rooms\\Details.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Rooms\\Details.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Rooms\\Details.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Rooms\\Details.cshtml",
+              "ViewState": "AgIAAD4AAAAAMjMzMzMbwA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:22:16.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:19:53.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "BookifyReservationHotel\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T14:37:19.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookifyReservationHotel.csproj",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel.csproj",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\BookifyReservationHotel.csproj",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel.csproj*",
+              "RelativeToolTip": "BookifyReservationHotel\\BookifyReservationHotel.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-09T13:47:05.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\appsettings.json",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\appsettings.json",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\appsettings.json",
+              "RelativeToolTip": "BookifyReservationHotel\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T13:39:28.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:20:51.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwDEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:20:52.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_NotificationPartial.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Shared\\_NotificationPartial.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Shared\\_NotificationPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:20:01.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BookifyReservationHotel\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHcAAAAAAAAAAIBJwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-09T13:29:10.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:26:30.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Admin\\Bookings\\Index.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Admin\\Bookings\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:25:29.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Rooms\\Index.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Rooms\\Index.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAQwMgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:22:15.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAQwL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:27:14.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Admin\\Rooms\\Index.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Admin\\Rooms\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:24:49.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Rooms\\Manage.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Admin\\Rooms\\Manage.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Rooms\\Manage.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Admin\\Rooms\\Manage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:24:49.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:23:49.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Bookings\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Bookings\\Confirmation.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Bookings\\Confirmation.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Bookings\\Confirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:23:15.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Bookings\\Payment.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Bookings\\Payment.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Bookings\\Payment.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Bookings\\Payment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:23:13.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Bookings\\Create.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:23:11.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BookifyReservationHotel\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\ProjectBookifyReservationHotel\\BookifyReservationHotel\\BookifyReservationHotel\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BookifyReservationHotel\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T13:21:46.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
